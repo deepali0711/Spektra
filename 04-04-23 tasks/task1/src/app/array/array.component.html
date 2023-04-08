@@ -1,0 +1,51 @@
+
+  <h2>Information Table</h2>
+  <table>
+    <tr>
+      <th>Sr no.</th>
+      <th>First name</th>
+      <th>City</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td>{{user[0]}}</td>
+      <td>{{user[1]}}</td>
+      <td>{{user[2]}}</td>
+    </tr>
+  </table>
+   
+
+
+
+ <h2> Assignment 2</h2> 
+ <div>
+  <input type="radio" id="male" name="gender" (click)="isValid('valid')">
+  <label for="male">Valid</label><br>
+  <input type="radio" id="female" name="gender" (click)="isValid('notvalid')">
+  <label for="female">Not Valid</label><br>
+<div *ngIf="validity==='valid'">
+  Valid
+
+</div>
+<div *ngIf="validity==='notvalid'">
+  Not Valid
+
+</div>
+<br>
+<br>
+<h1>Assignmnt 3</h1>
+<label for="Country">Choose a country:</label>
+
+<select name="country" id="select" [(ngModel)]="country">
+  <option value="India">India</option>
+  <option value="Denmark">Denmark</option>
+  <option value="Uk">UK</option>
+</select>
+<div [ngSwitch]="country">
+  <p *ngSwitchCase="'India'">Selected country is India </p>
+  <p *ngSwitchCase="'Denmark'">Selected country is Denmark</p>
+  <p *ngSwitchCase="'Uk'">Selected country is UK </p>
+
+  
+</div>
+
+ </div>
