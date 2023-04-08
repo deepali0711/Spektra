@@ -1,0 +1,104 @@
+<div style="width: 100px; height: 30px; text-align: center;">
+</div>
+<br>
+<br>
+<br>
+<div class="card" style="width: 900px; margin: auto;padding: 20px;">
+    <h1 style="text-align: center; margin: auto;">Registration Form</h1>
+    <form [formGroup]="userForm">
+    <div class="mt-5">
+        <div class="form-row">
+            <div class="col-md-10">
+                <div class="form-group">
+                    <label>Name</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" formControlName="name" class="form-control" placeholder="name">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Address</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" formControlName="address" class="form-control" placeholder="address">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Gender</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" formControlName="gender" class="form-control" placeholder="gender">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Contact No.</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="tel" formControlName="contactNo" class="form-control" placeholder="contactNo">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Birth Date</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="date" formControlName="birthDate" class="form-control" placeholder="birthDate">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Fees</label>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="number" formControlName="fees" class="form-control" placeholder="fees in rupees">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row mt-4">
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-primary" (click)="addItem()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <div class="col-md-8 mt-4 mb-4">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                <th> Name</th>
+                <th> address</th>
+                <th> gender</th>
+                <th> contactNo</th>
+                <th> Birth date</th>
+                <th> Fees</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of  listData">
+                    <td><span>{{item.name | uppercase}}</span></td>
+                    <td><span>{{item.address}}</span></td>
+                    <td><span>{{item.gender | uppercase}}</span></td>
+                    <td><span>{{item.contactNo}}</span></td>
+                    <td><span>{{item.birthDate}}</span></td>
+                    <td><span>{{item.fees | currency:'INR'}}</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <app-child [total]="total" [countmale]="malecount" [countfemale] ="femalecount"></app-child>

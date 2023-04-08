@@ -1,0 +1,33 @@
+ <div style="text-align: center;">
+<h1>Softec limited</h1>
+<img width="200" alt="company logo" src="assets\softeclogo.png">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #111010;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+<table>
+  <tr>
+    <th>Sr no.</th>
+    <th>Developers</th>
+    <th>Technology</th>
+    <th>Visit link</th>
+    <th>
+  </tr>
+  <tr>
+    <tr *ngFor="let user of personsList">
+        <td>{{user.Name}}</td>
+        <td>{{user.technology}}</td>
+        <td><button class="button"  onclick="display(user.id)"> Read more </button></td>
+      </tr>
+</table>
+<router-outlet></router-outlet>
