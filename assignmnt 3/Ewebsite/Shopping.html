@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="https://kit.fontawesome.com/7ec0474f73.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        background-size: cover;
+        background-position: center;
+      background-image: url("base2.jpg");
+    }
+    </style>
+<body>
+    
+        <header>
+          <div class="logo"><a href="#">k beauty</a></div>
+          <div class="menu">
+            <a href="#">
+              <ion-icon name="close" class="close"></ion-icon>
+            </a>
+          </div>
+                   <div class="heading">
+            <ul>
+              <li><a href="#" class="under">HOME</a></li>
+              <li><a href="#" class="under">OUR PRODUCTS </a></li>
+              <li><a href="#" class="under">CONTACT US</a></li>
+              <li><a href="login.html" class="under">LOGIN</a></li>
+              <li><a href="aboutshop.html" class="under" >ABOUT US</a></li>
+              <li><i class="fa-solid fa-cart-shopping" style="color: white;"></i><span id="cartLength" style="color: white; font-weight: bold; padding-left: 5px;"></span></li>
+            </ul>
+          </div>
+          <div class="heading1">
+           
+          </div>
+        </header>
+        <section>
+          <div class="section">
+            <div class="section1">
+              <div class="img" style="display: flex;">
+                <img src="level1.jpg" alt="" class="img">
+                <img src="head.jpg" alt="" class="img">
+              </div>      
+            </div>
+            <br><br>
+            <form name="dropform">
+            <div class="section2">
+              <div class="container">
+                <div class="items" >
+                  <div class="img img1"><img src="lipstick.jpg" alt=""></div>
+                  <div class="name">Matte Lipstick</div>
+                  <div class="price">300 /-</div>
+                  <div class="info">Extremely Matte lipstick</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">Add to cart</div>
+                </form>
+                </div>
+                <form name="dropform">
+                <div class="items">
+                  <div class="img img2"><img src="higlighter.jpg" alt=""></div>
+                  <div class="name">Sugar Highlighter</div>
+                  <div class="price">200/-</div>
+                  <div class="info">Shinning highlighter</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                </div>
+                <form name="dropform">
+                <div class="items">
+                  <div class="img img3"><img src="blushstick.jpg" alt=""></div>
+                  <div class="name">Sugar blush stick</div>
+                  <div class="price">400/-</div>
+                  <div class="info">Glossy blush stick</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                </div>
+                <form name="dropform">
+                <div class="items" style="display: flexbox;">
+                  <div class="img img1"><img src="contour.jpg" alt=""></div>
+                  <div class="name">Sugar Contour</div>
+                  <div class="price">300/-</div>
+                  <div class="info">Sugar Contour</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A">1</option>
+                    <option value="B">2</option>
+                    <option value="C">3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                </div>
+            <form name="dropform">
+                <div class="items">
+                  <div class="img img1"><img src="kajal.jpg" alt=""></div>
+                  <div class="name">Kajal Stick</div>
+                  <div class="price">100/-</div>
+                  <div class="info">Longlasting Kajal</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                </div>
+                <form name="dropform">
+                <div class="items">
+                  <div class="img img1"><img src="BB.jpg" alt=""></div>
+                  <div class="name">BB cream</div>
+                  <div class="price">500/-</div>
+                  <div class="info">Longlasting BB creame</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                 </div>
+                <form name="dropform">
+                <div class="items">
+                  <div class="img img1"><img src="sc3.JPG" alt=""></div>
+                  <div class="name">Sugar cosmetics</div>
+                  <div class="price">300/-</div>
+                  <div class="info">Sugar Cosmetics</div>
+                  <select name="dropSelect" onchange="showDropInfo()">
+                    <option value="P">Quantity:</option>
+                    <option value="A"> 1</option>
+                    <option value="B"> 2</option>
+                    <option value="C"> 3</option>
+                 </select><br>
+                 <div class="btn btn-primary add-cart">add to cart</div>
+                </form>
+                </div>
+                <form name="dropform">
+                <div class="items">
+                    <div class="img img2"><img src="pallete.jpg" alt=""></div>
+                    <div class="name">Sugar pallete</div>
+                    <div class="price">200/-</div>
+                    <div class="info">Shinning eyeshadows</div>
+                    <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="P">Quantity:</option>
+                        <option value="A">1</option>
+                        <option value="B"> 2</option>
+                        <option value="C"> 3</option>
+                     </select><br>
+                     <div class="btn btn-primary add-cart">add to cart</div>
+                    </form>
+                  </div>
+                  <form name="dropform">
+                  <div class="items">
+                    <div class="img img1"><img src="kajal.jpg" alt=""></div>
+                    <div class="name">Kajal Stick</div>
+                    <div class="price">100/-</div>
+                    <div class="info">Longlasting Kajal</div>
+                    <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="P">Quantity:</option>
+                        <option value="A">1</option>
+                        <option value="B"> 2</option>
+                        <option value="C"> 3</option>
+                     </select><br>
+                     <div class="btn btn-primary add-cart">add to cart</div>
+                    </form>
+                  </div>
+                  <form name="dropform">
+                  <div class="items">
+                    <div class="img img1"><img src="BB.jpg" alt=""></div>
+                    <div class="name">BB cream</div>
+                    <div class="price">500/-</div>
+                    <div class="info">Longlasting BB creame</div>
+                    <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="P">Quantity:</option>
+                        <option value="A"> 1</option>
+                        <option value="B"> 2</option>
+                        <option value="C"> 3</option>
+                     </select><br>
+                     <div class="btn btn-primary add-cart">add to cart</div>
+                    </form>
+                  </div>
+                  <form name="dropform">
+                  <div class="items">
+                    <div class="img img1"><img src="sc3.JPG" alt=""></div>
+                    <div class="name">Sugar cosmetics</div>
+                    <div class="price">300/-</div>
+                    <div class="info">Sugar Cosmetics</div>
+                    <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="P">Quantity:</option>
+                        <option value="A"> 1</option>
+                        <option value="B"> 2</option>
+                        <option value="C"> 3</option>
+                     </select><br>
+                     <div class="btn btn-primary add-cart">add to cart<div>
+                    </form>
+                  </div>
+                  <form name="dropform">
+                  <div class="items">
+                      <div class="img img2"><img src="pallete.jpg" alt=""></div>
+                      <div class="name">Sugar pallete</div>
+                      <div class="price">200/-</div>
+                      <div class="info">Shinning eyeshadows</div>
+                      <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="P">Quantity:</option>
+                        <option value="A"> 1</option>
+                        <option value="B"> 2</option>
+                        <option value="C"> 3</option>
+                     </select><br>
+                     <div class="btn btn-primary add-cart">add to cart</div>
+                    </form>           
+              </div>
+            </div>
+          </div>      
+        </section>
+        <footer>
+          <div class="footer0">
+          </div>
+          <div class="footer1 ">
+            Connect with us at<div class="social-media">
+                           <a href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="footer2">
+            <div class="product">
+              <div class="heading">Products</div>
+              <div class="div">Sell your Products</div>
+              <div class="div">Advertise</div>
+              <div class="div">Pricing</div>
+              <div class="div">Product Buisness</div>
+      
+            </div>
+            <div class="services">
+              <div class="heading">Services</div>
+              <div class="div">Return</div>
+              <div class="div">Cash Back</div>
+              <div class="div">Others</div>
+            </div>
+              <div class="Get Help">
+              <div class="div">Help Center</div>
+              <div class="div">Privacy Policy</div>
+              <div class="div">Terms</div>
+              <div class="div">Login</div>
+            </div>
+          </div>
+          
+          <script src="scripts.js"></script>
+          <script>
+            
+             function showDropInfo() {
+         var d = dropForm.dropSelect;
+         var r = document.getElementById('pF');
+         var o = document.getElementById('pS');
+         var pT = document.getElementById('pT');
+         d.innerHTML = ('Selected option index: ' + sT.selectedIndex);
+         o.innerHTML = ('Selected value: ' + sT[sT.selectedIndex].value);
+         p.innerHTML = ('Selected text: ' + sT[sT.selectedIndex].text);
+      }
+            const close = document.querySelector(".close");
+const open = document.querySelector(".ham");
+const menu = document.querySelector(".menu");
+close.addEventListener("click", () => {  menu.style.visibility = "hidden";});
+open.addEventListener("click", () => { menu.style.visibility = "visible";});
+          </script>
+          <div class="footer3">Copyright © <h4>K beauty</h4> 2022-2040</div>
+        </footer>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        
+        
+</body>
+</html>

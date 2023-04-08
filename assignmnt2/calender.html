@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+</head>
+    <body>
+        <h1>Find sundays between 2014 to 2050</h1>
+        <p id="calender"></p>
+    
+        <label for="From">From:</label>
+        <input type="number" id="From"
+            name="From"><br>
+    
+        <label for="To">To:</label>
+        <input type="number" id="To"
+            name="To"><br><br>
+    
+        <button onclick="myfunction()">
+            Get Result
+        </button>
+        <p id="day"></p>
+        <script>
+            function myfunction()
+            {
+                var out='';
+                let from=document.getElementById('From').value;
+                let to=document.getElementById('To').value;
+                for(let i=from; i<=to;i++)
+                {
+                    const result = new Date("January 1,"+i)
+                    const day=result.getDay();
+                    if(day==0)
+                    {
+                        out+="1st january is sunday on "+i +"</br>";
+                    }
+                }
+                document.getElementById('day').innerHTML=out;
+            }
+            
+        
+        </script>
+</body>
+</html>

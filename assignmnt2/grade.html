@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+       var array =[1,2, 3, 4, 5, 6, 7, 8, 9,10];
+       var sum=0;
+       for(let i=0; i<array.length;i++ )
+       {
+        sum+=array[i]
+       }
+
+       var average = sum / array.length;
+       document.write(" Sum: "+sum +"<br>")
+       document.write(" Average: "+average+ "<br>")
+       document.write(" Grade: ")
+
+       switch (true)
+
+{
+    case average>=40 && average<=60:
+    document.write ("Passed");
+    break;
+
+     case average>60 && average<=80:
+    document.write("First class") ;
+    break;
+
+     case average>80 && average<=900:
+    document.write("Second class");
+    break;
+
+     case average >90 && average<=100:
+    document.write("Third class") ;
+    break;
+
+    default: document.write("Fail");
+}
+  </script>  
+</body>
+</html>

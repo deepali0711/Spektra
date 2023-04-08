@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:rgb(192, 168, 192);text-align: center;">Application Form</h1> 
+        <br>
+            <h4 style="background-color:rgb(200, 186, 190);text-align: center;">Student Details</h4>
+            <br>
+            <br>
+                <label for="First name">First name</label><br>
+                <input id="name" type="text" name="First name" placeholder="Enter your first name">
+                <br>
+                <br>
+                <label for="email">email</label><br>
+                <input id="gmail" type="email" name="email" placeholder="Enter your email">
+                <br>
+                <br>
+                <label for="Age">age</label><br>
+                <input id="age" type="number" name="age" placeholder="Enter your age" min="0">
+                <br>
+                <br>
+                <input onclick="fun()" type="Submit" name="Submit" id="Submit">
+                <p id="error">
+                </p>
+
+                <script>
+                    function fun(){
+                   let res=''; 
+                   let sub=true;
+                   let firstname = document.getElementById('name').value;
+                   let email = document.getElementById('gmail').value;
+                   if(!email.endsWith("@gmail.com")){
+                    res+="Enter a valid mail<br>";
+                    sub=false;
+                   }
+
+                   let Age = document.getElementById('age').value;
+                   if(isNaN(Age) || Age<0 || Age=='')
+                   {
+                    sub=false;
+                    res+= " Enter a correct age <br>";
+                   }  
+                   document.getElementById('error').innerHTML=res;
+                   if(sub){
+                    document.getElementById('error').innerHTML="submitted";
+                   }
+                
+                }
+                    
+
+                </script>
+
+</body>
+</html>

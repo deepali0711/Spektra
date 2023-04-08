@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Select your Netflix  plan
+	</title>
+	
+	<link rel="stylesheet" href="css.css">
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+          background-image: url("R3.jpg");
+        }
+        </style>
+</head>
+<style>
+body
+{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #831919;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #a01414;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+</style>
+	<div class="container">
+		<h2>Select Your Plan</h2>
+		<div class="price-row">
+			<div class="price-col">
+				<p>Basic</p>
+				<h3>199 Rs <span>/month</span></h3>
+				<ul>
+					<li>Monthly price</li>
+					<li>Good video quality</li>
+					<li>Resolution-720p</li>
+					<li>4 devices connection</li>
+				</ul>
+				<button>Choose</button>
+			</div>
+			<div class="price-col">
+				<p>Standard</p>
+				<h3>499 Rs <span>/month</span></h3>
+				<ul>
+					<li>Monthly price</li>
+					<li>Better video quality</li>
+					<li>Resolution-1080p</li>
+					<li>4 device connection</li>
+				</ul>
+				<button>CHOOSE</button>
+			</div>
+			<div class="price-col">
+				<p>Premium</p>
+				<h3>649 Rs <span>/month</span></h3>
+				<ul>
+					<li>Monthly price</li>
+					<li>Best video quality</li>
+					<li>Resolution- 4K+HDR </li>
+					<li>4 device connections</li>
+				</ul>
+				<button>CHOOSE</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

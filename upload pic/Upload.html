@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="upload.css"> 
+    <title>image uploading</title>
+</head>
+<style>
+    body {
+        margin-top: 500px;
+        margin-left: 500px;
+        background-size: cover;
+        background-position: center;
+      background-image: url("back.jpg");
+    }
+
+    
+      
+</style>
+<body>
+    <h2>Round Card</h2>
+
+    <div class="card">
+      <img src="dog.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b>Jane Doe</b></h4> 
+        <p>Interior Designer</p> 
+      </div>
+    </div>
+    
+    <label for="file">Upload file</label>
+    <input type="file" id="files" multiple="multiple" accept="imgage/jpg, image/png, image/jpeg">
+    <output id="Uploaded">
+    </output>
+        <script src="upload.js"></script>
+</body>
+</html> 

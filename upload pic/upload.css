@@ -1,0 +1,43 @@
+#Uploaded{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.thumbnail{
+    width: 300px;
+    height: 400px;
+}
+.btns{
+    display: flex;
+    margin-top: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Responsive{
+    width: 100%;
+}
+
+.R3.jpg{
+    display: flex;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
