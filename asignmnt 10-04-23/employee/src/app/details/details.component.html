@@ -1,0 +1,24 @@
+ <button class="button btn btn-dark" type="button" name="button" (click)='show()'>Employees Details</button>
+ <br>
+ <br>
+<div *ngIf="display == true">
+    <table class="table table-info" >
+      <thead class="table-dark">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let person of detailsuser1">
+            <th>{{person.FirstName}} </th>
+            <th>{{person.age}}</th>
+            <th>{{person.city}}</th>
+            <th>{{person.country}}</th>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>

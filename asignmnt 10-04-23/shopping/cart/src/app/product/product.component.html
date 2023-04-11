@@ -1,0 +1,25 @@
+<button type="button" name="button" (click)='show()'>Employees</button>
+<br><button type="button" name="button" (click)='show()'>Employees</button>
+
+<div *ngIf="display == true">
+    <table class="decor">
+      <thead>
+        <tr>
+          <th>Product name</th>
+          <th>brand name</th>
+          <th>quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let person of detailsuser1">
+            <th>{{person.FirstName}} </th>
+            <th>{{person.age}}</th>
+            <th>{{person.city}}</th>
+            <th>{{person.country}}</th>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+

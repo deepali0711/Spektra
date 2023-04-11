@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: antiquewhite;
+    background-image: url(assets\base.jpg);
+    background-position: center;
+}
