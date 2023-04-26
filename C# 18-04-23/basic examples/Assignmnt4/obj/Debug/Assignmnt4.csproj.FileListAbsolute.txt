@@ -1,0 +1,8 @@
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\bin\Debug\Assignmnt4.exe.config
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\bin\Debug\Assignmnt4.exe
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\bin\Debug\Assignmnt4.pdb
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\obj\Debug\Assignmnt4.csproj.AssemblyReference.cache
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\obj\Debug\Assignmnt4.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\obj\Debug\Assignmnt4.csproj.CoreCompileInputs.cache
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\obj\Debug\Assignmnt4.exe
+D:\Spektra\C# 18-04-23\basic examples\Assignmnt4\obj\Debug\Assignmnt4.pdb

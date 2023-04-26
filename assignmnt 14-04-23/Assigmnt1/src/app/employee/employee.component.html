@@ -1,0 +1,21 @@
+<h1 style="margin-top: 100px; margin-left: 600px;">Employee Details</h1>
+<div style="margin: auto;width: 700px;margin-top: 150px;">
+    <table class="table table-dark table-striped-columns">
+        <thead>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Password</th>
+            <th>Job Description</th>      
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of employeeData">
+                <th>{{emp.id}}</th>
+                <th>{{emp.name}}</th>
+                <th>{{emp.password}}</th>
+                <th>{{emp.Technology}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>

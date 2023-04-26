@@ -1,0 +1,10 @@
+{
+    "employees":[
+    {"id":1,"name":"deepali","password":"ertyu","Technology":"developer"},
+    {"id":2,"name":"chinto","password":"uiop","Technology":"developer"},
+    {"id":3,"name":"bittoo","password":"iopa","Technology":"developer"},
+    {"id":4,"name":"chinki","password":"cvbn","Technology":"developer"}
+    ] 
+
+
+}

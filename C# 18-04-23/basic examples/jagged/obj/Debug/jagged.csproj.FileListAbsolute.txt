@@ -1,0 +1,8 @@
+D:\Spektra\C# 18-04-23\basic examples\jagged\bin\Debug\jagged.exe.config
+D:\Spektra\C# 18-04-23\basic examples\jagged\bin\Debug\jagged.exe
+D:\Spektra\C# 18-04-23\basic examples\jagged\bin\Debug\jagged.pdb
+D:\Spektra\C# 18-04-23\basic examples\jagged\obj\Debug\jagged.csproj.AssemblyReference.cache
+D:\Spektra\C# 18-04-23\basic examples\jagged\obj\Debug\jagged.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\C# 18-04-23\basic examples\jagged\obj\Debug\jagged.csproj.CoreCompileInputs.cache
+D:\Spektra\C# 18-04-23\basic examples\jagged\obj\Debug\jagged.exe
+D:\Spektra\C# 18-04-23\basic examples\jagged\obj\Debug\jagged.pdb

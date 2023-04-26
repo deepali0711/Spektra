@@ -1,0 +1,8 @@
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Spektra\C# 18-04-23\basic examples\string\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

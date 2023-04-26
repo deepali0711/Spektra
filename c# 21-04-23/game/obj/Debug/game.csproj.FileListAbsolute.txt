@@ -1,0 +1,8 @@
+D:\Spektra\c# 21-04-23\game\bin\Debug\game.exe.config
+D:\Spektra\c# 21-04-23\game\bin\Debug\game.exe
+D:\Spektra\c# 21-04-23\game\bin\Debug\game.pdb
+D:\Spektra\c# 21-04-23\game\obj\Debug\game.csproj.AssemblyReference.cache
+D:\Spektra\c# 21-04-23\game\obj\Debug\game.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\c# 21-04-23\game\obj\Debug\game.csproj.CoreCompileInputs.cache
+D:\Spektra\c# 21-04-23\game\obj\Debug\game.exe
+D:\Spektra\c# 21-04-23\game\obj\Debug\game.pdb

@@ -1,0 +1,8 @@
+D:\Spektra\C# 18-04-23\basic examples\array\bin\Debug\array.exe.config
+D:\Spektra\C# 18-04-23\basic examples\array\bin\Debug\array.exe
+D:\Spektra\C# 18-04-23\basic examples\array\bin\Debug\array.pdb
+D:\Spektra\C# 18-04-23\basic examples\array\obj\Debug\array.csproj.AssemblyReference.cache
+D:\Spektra\C# 18-04-23\basic examples\array\obj\Debug\array.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\C# 18-04-23\basic examples\array\obj\Debug\array.csproj.CoreCompileInputs.cache
+D:\Spektra\C# 18-04-23\basic examples\array\obj\Debug\array.exe
+D:\Spektra\C# 18-04-23\basic examples\array\obj\Debug\array.pdb

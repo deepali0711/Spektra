@@ -1,0 +1,12 @@
+
+.main{
+    margin: 50px;
+}
+body{
+    height: 100vh;
+    background-image: url("assets\base.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

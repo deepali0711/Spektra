@@ -1,0 +1,26 @@
+<!-- <p>update works!</p> -->
+
+<div style="margin: auto; width: 500px;">
+    <h1>Edit Product</h1>
+    <form [formGroup]="formEdit" (ngSubmit)="submitForm()" novalidate>                                   
+        <div class="table table-striped-columns" style="margin: auto;">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" formControlName="name" class="form-control" maxlength="20">
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" formControlName="details" rows="3" maxlength="50"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input type="text" formControlName="price" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Type</label>
+            <input type="text" formControlName="type" class="form-control">
+        </div>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</div>

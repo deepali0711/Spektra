@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(assets\base3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button{
+    margin-left: 500px;
+    width: 300;
+    height: 300;
+    display: flex;
+    background: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.sides{
+    color: rgb(16, 15, 14);
+    
+}
+.head{
+    text-align: center;
+    color: rgb(240, 240, 228);
+    text-shadow: 3px 3px 3px;
+}

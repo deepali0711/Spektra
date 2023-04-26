@@ -1,0 +1,8 @@
+D:\Spektra\c# 24-04-23\assignmnt2\bin\Debug\assignmnt2.exe.config
+D:\Spektra\c# 24-04-23\assignmnt2\bin\Debug\assignmnt2.exe
+D:\Spektra\c# 24-04-23\assignmnt2\bin\Debug\assignmnt2.pdb
+D:\Spektra\c# 24-04-23\assignmnt2\obj\Debug\assignmnt2.csproj.AssemblyReference.cache
+D:\Spektra\c# 24-04-23\assignmnt2\obj\Debug\assignmnt2.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\c# 24-04-23\assignmnt2\obj\Debug\assignmnt2.csproj.CoreCompileInputs.cache
+D:\Spektra\c# 24-04-23\assignmnt2\obj\Debug\assignmnt2.exe
+D:\Spektra\c# 24-04-23\assignmnt2\obj\Debug\assignmnt2.pdb

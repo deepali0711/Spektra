@@ -1,0 +1,21 @@
+<h2 style="margin-top: 50px; font-size: 35px; font-weight: bold; color: blue;">Product Details</h2>
+<table class="table table-primary" style="width: 700px; margin-top: 30px;">
+    <thead class="table-primary">
+        <tr>
+            
+            <th>Product Name</th>
+            <th>Product Type</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of productDetails">
+         
+            <td>{{product.itemName}}</td>
+            <td>{{product.type}}</td>
+            <td>{{product.qty}}</td>
+            <td>{{product.price}}</td>
+        </tr>
+    </tbody>
+</table>

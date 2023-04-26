@@ -1,0 +1,8 @@
+D:\Spektra\c# 21-04-23\practice\bin\Debug\practice.exe.config
+D:\Spektra\c# 21-04-23\practice\bin\Debug\practice.exe
+D:\Spektra\c# 21-04-23\practice\bin\Debug\practice.pdb
+D:\Spektra\c# 21-04-23\practice\obj\Debug\practice.csproj.AssemblyReference.cache
+D:\Spektra\c# 21-04-23\practice\obj\Debug\practice.csproj.SuggestedBindingRedirects.cache
+D:\Spektra\c# 21-04-23\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+D:\Spektra\c# 21-04-23\practice\obj\Debug\practice.exe
+D:\Spektra\c# 21-04-23\practice\obj\Debug\practice.pdb
